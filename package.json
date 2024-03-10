@@ -1,0 +1,29 @@
+{
+  "name": "celestial-moonbeam",
+  "version": "1.0.0",
+  "description": "Calculate the moon phase",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/invizuki/celestial-moonbeam.git"
+  },
+  "keywords": [
+    "celestial",
+    "moon",
+    "phase",
+    "astronomy",
+    "astrology"
+  ],
+  "author": "github.com/oyve",
+  "license": "ISC",
+  "dependencies": {
+    "async-retry": "^1.2.1",
+    "eth-sig-util": "^1.4.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
+}
